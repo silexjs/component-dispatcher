@@ -1,0 +1,34 @@
+{
+	"name": "silex-component-dispatcher",
+	"version": "0.0.1",
+	"description": "[SILEX][COMPONENT] Event manager with execution order system",
+	"author": "Valentin Allaire <valentin@sitexw.fr>",
+	"license": "MIT",
+	"keywords": [
+		"dispatcher",
+		"event",
+		"order",
+		"manager",
+		"silex",
+		"component"
+	],
+	"main": "index.js",
+	"dependencies": {},
+	"devDependencies": {},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/silexjs/component-dispatcher.git"
+	},
+	"bugs": {
+		"url": "https://github.com/silexjs/component-dispatcher/issues"
+	},
+	"homepage": "https://github.com/silexjs/component-dispatcher",
+	"autoload": {
+		"psr-4": {
+			"Silex\\Component\\Dispatcher": "./lib/"
+		}
+	}
+}
