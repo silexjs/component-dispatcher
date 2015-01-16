@@ -1,6 +1,6 @@
 {
 	"name": "silex-component-dispatcher",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "[SILEX][COMPONENT] Event manager with execution order system",
 	"author": "Valentin Allaire <valentin@sitexw.fr>",
 	"license": "MIT",
