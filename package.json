@@ -1,6 +1,6 @@
 {
 	"name": "silex-component-dispatcher",
-	"version": "0.0.5",
+	"version": "0.0.6",
 	"description": "[SILEX][COMPONENT] Event manager with execution order system",
 	"author": "Valentin Allaire <valentin@sitexw.fr>",
 	"license": "MIT",
@@ -13,7 +13,9 @@
 		"component"
 	],
 	"main": "index.js",
-	"dependencies": {},
+	"dependencies": {
+		"cli-color": "<2.0.0"
+	},
 	"devDependencies": {},
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
